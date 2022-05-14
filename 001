@@ -1,0 +1,763 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>সুরক্ষা : কোভিড-১৯ ভ্যাকসিনের জন্য নিবন্ধন করুন</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://surokkha-gov-bd.net/frontend/verification_new/assets/css/style.css" />
+  </head>
+
+  <body>
+    <header class="su-h-header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <img
+              width="220"
+              class="img-fluid"
+              src="https://surokkha-gov-bd.net/frontend/verification_new/assets/images/logo-f.5c608b98.png"
+              alt="Surokkha"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navBar3"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navBar3">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="https://surokkha.gov.bd/">হোম</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://surokkha.gov.bd/enroll">নিবন্ধন</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://surokkha.gov.bd/vaccine-card">টিকা কার্ড</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://surokkha.gov.bd/certificate">টিকা সনদ</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://surokkha.gov.bd/verify">টিকা সনদ যাচাই</a></li>
+          </ul><a href="javascript:void(0)" class="nav-link btn ms-lg-2 su-lang-btn">English</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="su-inner-banner-area new-cert-bg no-print">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-12 col-sm-6 col-lg-5 col-xl-4 m-auto pt-4">
+              <h3>টিকা সনদ যাচাই</h3>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-5 col-xl-4 m-auto pt-4">
+              <div class="su-inner-banner-img">
+                <img
+                  alt="image"
+                  class="img-fluid"
+                  src="https://surokkha-gov-bd.net/frontend/verification_new/assets/images/new-certification-card.ac1c4d8c.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container no-print">
+        <div class="su-main-reg-form-header">
+          <br />
+          <p class="text-left"></p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center py-8 px-8 py-md-27 px-md-0">
+          <div class="col-md-12 p-sm-0">
+            <div class="d-flex justify-content-between">
+              <div class="col-md-12 p-sm-0">
+                <div class="text-end mb-2 no-print">
+                  <button class="btn btn-sm btn-success">Print</button>
+                </div>
+                <div style="border: 1px solid rgb(222, 226, 230)">
+                  <div class="text-center pt-2 d-md-none show-mobile no-print">
+                    <img
+                      src="https://surokkha-gov-bd.net/frontend/verification_new/assets/images/gov_logo.0b7f8514.png"
+                      width="70"
+                    />&nbsp; &nbsp; &nbsp; &nbsp;<img
+                      src="https://surokkha-gov-bd.net/frontend/verification_new/assets/images/mujib100.75b35add.png"
+                      width="100"
+                    />
+                  </div>
+                  <div class="row cert-header-print m-0 mt-2">
+                    <div
+                      class="col-md-3 text-end d-none d-md-block d-print-inline-block"
+                    >
+                      <img
+                        src="https://surokkha-gov-bd.net/frontend/verification_new/assets/images/gov_logo.0b7f8514.png"
+                        width="70"
+                      />
+                    </div>
+                    <div
+                      class="col-md-6 text-center px-4 px-md-0"
+                      style="font-size: 16px; line-height: 70px"
+                    >
+                      <p
+                        style="
+                          line-height: 18px;
+                          margin-bottom: 0px;
+                          margin-top: 18px;
+                        "
+                      >
+                        Government of the People's Republic of Bangladesh
+                      </p>
+                      <p style="line-height: 18px">
+                        Ministry of Health and Family Welfare
+                      </p>
+                    </div>
+                    <div
+                      class="col-md-3 text-start d-none d-md-block d-print-inline-block"
+                    >
+                      <img
+                        src="https://surokkha-gov-bd.net/frontend/verification_new/assets/images/mujib100.75b35add.png"
+                        width="100"
+                      />
+                    </div>
+                  </div>
+                  <div class="text-center mt-2 mb-2">
+                    <div
+                      style="font-size: 30px; color: green; font-weight: bold"
+                    >
+                      Verification Successful !
+                    </div>
+                    <div
+                      style="font-size: 22px; color: green; font-weight: 350"
+                    >
+                      This Vaccination Certificate is Valid.
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="row m-0">
+                    <div class="col-md-5 col-print-sm p-0">
+                      <div
+                        class="text-center p-2"
+                        style="
+                          text-align: center;
+                          background-color: rgb(238, 238, 238);
+                          font-size: 14px;
+                          font-weight: bold;
+                          border: 1px solid rgb(222, 226, 230);
+                        "
+                      >
+                        Beneficiary Details (টিকা গ্রহণকারীর বিবরণ)
+                      </div>
+                      <div class="row m-0">
+                        <div
+                          class="col-6 col-p-50"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: right;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            Certificate No:<br />সার্টিফিকেট নং:
+                          </div>
+                        </div>
+                        <div
+                          class="col-6"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: left;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            BD5679983257
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row m-0">
+                        <div
+                          class="col-6 col-p-50"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: right;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            NID Number:<br />জাতীয় পরিচয়পত্র নং:
+                          </div>
+                        </div>
+                        <div
+                          class="col-6"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: left;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            N/A
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row m-0">
+                        <div
+                          class="col-6 col-p-50"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: right;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            Passport No:<br />পাসপোর্ট নং:
+                          </div>
+                        </div>
+                        <div
+                          class="col-6"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: left;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            EB0693889
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row m-0">
+                        <div
+                          class="col-6 col-p-50"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: right;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            Country/Nationality:<br />দেশ/জাতীয়তা:
+                          </div>
+                        </div>
+                        <div
+                          class="col-6"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: left;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            Bangladeshi
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row m-0">
+                        <div
+                          class="col-6 col-p-50"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: right;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            Name:<br />নাম:
+                          </div>
+                        </div>
+                        <div
+                          class="col-6"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: left;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                              text-transform: uppercase;
+                            "
+                          >
+                            ANOWARA BEGUM
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row m-0">
+                        <div
+                          class="col-6 col-p-50"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: right;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            Date of Birth:<br />জন্ম তারিখ:
+                          </div>
+                        </div>
+                        <div
+                          class="col-6"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: left;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            07-05-1957
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row m-0">
+                        <div
+                          class="col-6 col-p-50"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: right;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            Gender:<br />লিঙ্গ:
+                          </div>
+                        </div>
+                        <div
+                          class="col-6"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: left;
+                              padding: 5px;
+                              text-transform: capitalize;
+                            "
+                          >
+                            FEMALE
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-print-md p-0">
+                      <div
+                        class="text-center p-2"
+                        style="
+                          text-align: center;
+                          background-color: rgb(238, 238, 238);
+                          font-size: 14px;
+                          font-weight: bold;
+                          border: 1px solid rgb(222, 226, 230);
+                        "
+                      >
+                        Vaccination Details (টিকা প্রদানের বিবরণ)
+                      </div>
+                      <div class="row m-0">
+                        <div
+                          class="col-6 col-p-50"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: right;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            Date of Vaccination (Dose 1):<br />টিকা প্রদানের
+                            তারিখ (ডোজ ১):
+                          </div>
+                        </div>
+                        <div
+                          class="col-6"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: left;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            16-11-2021
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row m-0">
+                        <div
+                          class="col-6 col-p-50"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: right;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            Name of Vaccine (Dose 1):<br />টিকার নাম (ডোজ ১):
+                          </div>
+                        </div>
+                        <div
+                          class="col-6"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: left;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            Pfizer (Pfizer-BioNTech)
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row m-0">
+                        <div
+                          class="col-6 col-p-50"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: right;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            Date of Vaccination (Dose 2):<br />টিকা প্রদানের
+                            তারিখ (ডোজ ২):
+                          </div>
+                        </div>
+                        <div
+                          class="col-6"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: left;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            16-12-2021
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row m-0">
+                        <div
+                          class="col-6 col-p-50"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: right;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            Name of Vaccine (Dose 2):<br />টিকার নাম (ডোজ ২):
+                          </div>
+                        </div>
+                        <div
+                          class="col-6"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: left;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            Pfizer (Pfizer-BioNTech) 
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row m-0">
+                        <div
+                          class="col-6 col-p-50"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: right;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            Vaccination Center:<br />টিকা প্রদানের কেন্দ্র:
+                          </div>
+                        </div>
+                        <div
+                          class="col-6"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: left;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            Dhaka Medical College Hospital
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row m-0">
+                        <div
+                          class="col-6 col-p-50"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: right;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            Vaccinated By:<br />টিকা প্রদানকারী:
+                          </div>
+                        </div>
+                        <div
+                          class="col-6"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: left;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            Directorate General of Health Services (DGHS)
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row m-0">
+                        <div
+                          class="col-6 col-p-50"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: right;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            Total Doses Given:<br />মোট ডোজ সংখ্যা:
+                          </div>
+                        </div>
+                        <div
+                          class="col-6"
+                          style="border: 1px dashed rgb(222, 226, 230)"
+                        >
+                          <div
+                            class="cert-verify-content-div"
+                            style="
+                              font-size: 13px;
+                              text-align: left;
+                              padding: 5px;
+                              overflow-wrap: break-word;
+                            "
+                          >
+                            2
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="p-2"
+                  style="
+                    text-align: center;
+                    border: 1px solid rgb(222, 226, 230);
+                  "
+                >
+                  For any further assistance, please visit www.dghs.gov.bd or
+                  e-mail: info@dghs.gov.bd <br />(প্রয়োজনে www.dghs.gov.bd ওয়েব
+                  সাইটে ভিজিট করুন অথবা ইমেইল করুনঃ info@dghs.gov.bd)
+                </div>
+                <div
+                  class="text-center p-2"
+                  style="
+                    text-align: center;
+                    background-color: rgb(238, 238, 238);
+                    font-size: 14px;
+                    font-weight: bold;
+                    border: 1px solid rgb(222, 226, 230);
+                  "
+                >
+                  In Cooperation With
+                </div>
+                <div
+                  class="text-center p-2 mb-3 footer-cert-verify-img"
+                  style="border: 1px solid rgb(222, 226, 230)"
+                >
+                  <img
+                    src="https://surokkha-gov-bd.net/frontend/verification_new/assets/images/Credit_Logo.68be46aa.png"
+                    alt="ict logo"
+                    style="max-width: 80%"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="su-main-footer-area no-print">
+      <div class="container mt-5">
+        <div class="row text-left">
+          <div class="col-12 col-md-2 su-footer-logo mb-3">
+            <img src="https://surokkha-gov-bd.net/frontend/verification_new/assets/images/logo_white.c4093db4.svg" alt="Surokkha" />
+          </div>
+          <div class="col-12 col-md-2">
+            <ul class="list-footer text-small mb-5">
+              <li><a class="footer-link" href="/faq">জিজ্ঞাসা</a></li>
+              <li><a class="footer-link" href="/help">সহায়িকা</a></li>
+              <li>
+                <a class="footer-link" href="/privacy-policy"
+                  >প্রাইভেসি পলিসি</a
+                >
+              </li>
+              <li>
+                <a class="footer-link" href="/terms-of-service"
+                  >টার্মস অফ সার্ভিসেস</a
+                >
+              </li>
+              <li>
+                <a class="footer-link" href="/affiliates"
+                  >অন্যান্য সহযোগী প্রতিষ্ঠানসমূহ</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 su-footer-l-col">
+            <p>কারিগরি সহায়তায় - তথ্য ও যোগাযোগ প্রযুক্তি অধিদপ্তর &nbsp;</p>
+            <img
+              alt=""
+              class="img-fluid"
+              src="https://surokkha-gov-bd.net/frontend/verification_new/assets/images/ict.52410752.png"
+            />
+          </div>
+          <div class="col-12 col-md-4 pt-5 pt-md-0 su-footer-r-col">
+            <p>সহযোগী সংস্থাসমূহ -&nbsp;</p>
+            <img
+              alt=""
+              class="img-fluid"
+              src="https://surokkha-gov-bd.net/frontend/verification_new/assets/images/org.ed08c793.png"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap bunlde js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
